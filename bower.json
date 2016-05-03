@@ -1,0 +1,16 @@
+{
+  "name": "elixir-bower",
+  "description": "",
+  "authors": [],
+  "homepage": "https://github.com/coldbox-templates/elixir-bower",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6"
+  }
+}

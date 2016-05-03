@@ -1,0 +1,9 @@
+# Main dependencies
+coldbox/*
+testbox/*
+logs/*
+
+# Elixir, Bower, Node
+node_modules/*
+bower_components/*
+npm-debug.log
