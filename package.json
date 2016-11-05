@@ -2,9 +2,7 @@
   "private": true,
   "devDependencies": {
     "bower": "^1.7.9",
-    "gulp": "^3.9.1"
-  },
-  "dependencies": {
-    "coldbox-elixir": "^1.1.0"
+    "gulp": "^3.9.1",
+    "coldbox-elixir": "^2.0.0"
   }
 }
