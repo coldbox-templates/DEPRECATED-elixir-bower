@@ -18,14 +18,17 @@ Source Code
 
 ## Quick Installation
 
-Each application templates contains a `box.json` so it can leverage [CommandBox](http://www.ortussolutions.com/products/commandbox) for its dependencies.  
-Just go into each template directory and type:
+This template includes several components which each need to be installed to build up the stack.
+
+First, review the `box.json` which leverages [CommandBox](http://www.ortussolutions.com/products/commandbox) for its dependencies.  Type:
 
 ```
 box install
 ```
 
-This will setup all the needed dependencies for each application template.  You can then type:
+This will setup all the needed dependencies for each application template.
+
+You can then type:
 
 ```
 box server start
@@ -41,9 +44,15 @@ You will find a `package.json` and a `Gulpfile.js` in the root of this template.
 npm install
 ```
 
-Just make sure that you have Gulp and Bower installed globally as well: `npm install -g gulp bower`.
+Just make sure that you have [Gulp](http://gulpjs.com/) and [Bower](https://bower.io/) installed globally as well: `npm install -g gulp bower`.  Then a `node_modules` folder will be created will all the needed dependencies for ColdBox Elixir.  
 
-Then a `node_modules` folder will be created will all the needed dependencies for ColdBox Elixir.  You can then just run `gulp` for asset combination and management.  Run `gulp --production` so it can do minification of assets as well. Run `gulp watch` for starting watchers in all ColdBox convetions for changes and asset recompilation.
+To download all the javascript dependencies, type:
+
+```
+bower install
+```
+
+You can then just run `gulp` for asset combination and management.  Run `gulp --production` so it can do minification of assets as well. Run `gulp watch` for starting watchers in all ColdBox convetions for changes and asset recompilation.
 
 ---
  
