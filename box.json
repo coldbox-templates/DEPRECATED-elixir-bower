@@ -1,7 +1,7 @@
 {
     "name":"Elixir Bower App Template",
-    "version":"1.4.0",
-    "location":"https://github.com/coldbox-templates/elixir-bower/archive/v1.4.0.zip",
+    "version":"1.5.0",
+    "location":"https://github.com/coldbox-templates/elixir-bower/archive/v1.5.0.zip",
     "author":"Ortus Solutions, Corp",
     "slug":"cbtemplate-elixir-bower",
     "shortDescription":"A ColdBox application template that leverages ColdBox Elixir for assets and bower for asset manager",
@@ -15,9 +15,7 @@
         "url":"https://github.com/coldbox-templates/elixir-bower"
     },
     "bugs":"https://github.com/coldbox-templates/elixir-bower/issues",
-    "contributors":[
-        
-    ],
+    "contributors":[],
     "ignore":[
         "readme.md"
     ],
