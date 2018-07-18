@@ -1,3 +1,7 @@
+# DEPRECATED TEMPLATE
+
+This template has been deprecated, please use the (Elixir Template)[https://github.com/coldbox-templates/elixir] instead.
+
 # Elixir + Bower Template
 
 This advanced template leverages (ColdBox Elixir)[https://github.com/ColdBox/elixir] and Bower for asset management and compilations.  You can place all your static assets in the `resources/assets` folder and Elixir will combine, version, copy, and even babelify your code to their appropriate location in the `includes` folder.
